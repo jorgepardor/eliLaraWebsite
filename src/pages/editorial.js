@@ -6,6 +6,7 @@ import { Variedades } from "../components/editorial/variedades";
 export const Editorial = () => {
     return (  
         <div className="container mx-auto">
+
             <Variedades />
             <Toomuch />
             <Playboy />

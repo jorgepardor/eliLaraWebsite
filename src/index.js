@@ -19,7 +19,7 @@ import { Contacto } from './pages/contacto.js';	// Importamos el componente Cont
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div className='Main-color'>
+  <div className='flex flex-col h-screen'>
     <React.StrictMode>
       <BrowserRouter>
       <Navbar />

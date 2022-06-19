@@ -2,17 +2,17 @@ import "./App.css";
 
 function App() {
 	return (
-		<div className="App">
-			<header>
-				<div>
+		<div className="App grow"> 
+			<header className="...">
+
 					<img
-						className="w-1/2"
-						src="https://res.cloudinary.com/elizapardo/image/upload/v1655661179/logo_main_qhkbur.webp"
+						className=" mt-60 w-1/2 m-auto"
+						src="https://res.cloudinary.com/elizapardo/image/upload/v1655667645/Artboard-1-copy_eewqjy.webp"
 						alt="logo"
 					/>
 
-					<h1>Under development</h1>
-				</div>
+					<p className=" leading-5 mt-10">🌱 Under development</p>
+
 			</header>
 		</div>
 	);
