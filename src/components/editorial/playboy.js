@@ -1,28 +1,143 @@
 import React from "react";
+import Slider from "react-slick";
 
 export const Playboy = () => {
-    return (  
-        <div className="container mx-auto">
-            <p className="fs-2 text-center">Playboy</p>
-            <p className="lead text-center">Revista de entretenimiento para adultos. Se publica mensualmente y ofrece artículos sobre temas de interés y entrevistas a personas destacadas.</p>
-            <img src="https://res.cloudinary.com/elilara/image/upload/v1652033022/PLAYBOY_111_xewqah.jpg" alt="Imagen de playboy"/>
-            <img src="https://res.cloudinary.com/elilara/image/upload/v1652033021/PLAYBOY_01_mwnpa1.jpg" alt="Imagen de playboy"/>
-            <img src="https://res.cloudinary.com/elilara/image/upload/v1652033021/PLAYBOY_05_jdgaiy.jpg" alt="Imagen de playboy"/>
-            <img src="https://res.cloudinary.com/elilara/image/upload/v1652033021/PLAYBOY_15_qroqg6.jpg" alt="Imagen de playboy"/>
-            <img src="https://res.cloudinary.com/elilara/image/upload/v1652033022/PLAYBOY_10_axbnys.jpg" alt="Imagen de playboy"/>
-            <img src="https://res.cloudinary.com/elilara/image/upload/v1652033021/PLAYBOY_12_lelgga.jpg" alt="Imagen de playboy"/>
-            <img src="https://res.cloudinary.com/elilara/image/upload/v1652033021/PLAYBOY_06_amdgnt.png" alt="Imagen de playboy"/>
-            <img src="https://res.cloudinary.com/elilara/image/upload/v1652033021/PLAYBOY_11_fq7cae.png" alt="Imagen de playboy"/>
-            <img src="https://res.cloudinary.com/elilara/image/upload/v1652033020/PLAYBOY_07_mtq0vr.png" alt="Imagen de playboy"/>
-            <img src="https://res.cloudinary.com/elilara/image/upload/v1652033020/PLAYBOY_07_sp1y2d.jpg" alt="Imagen de playboy"/>
-            <img src="https://res.cloudinary.com/elilara/image/upload/v1652033020/PLAYBOY_08_y9cp5n.png" alt="Imagen de playboy"/>
-            <img src="https://res.cloudinary.com/elilara/image/upload/v1652033020/PLAYBOY_04_c7kqph.jpg" alt="Imagen de playboy"/>
-            <img src="https://res.cloudinary.com/elilara/image/upload/v1652033019/PLAYBOY_10_d78rew.png" alt="Imagen de playboy"/>
-            <img src="https://res.cloudinary.com/elilara/image/upload/v1652033019/PLAYBOY_08_rdvyi7.jpg" alt="Imagen de playboy"/>
-            <img src="https://res.cloudinary.com/elilara/image/upload/v1652033019/PLAYBOY_14_uyqqgu.jpg" alt="Imagen de playboy"/>
-            <img src="https://res.cloudinary.com/elilara/image/upload/v1652033018/PLAYBOY_13_hcmj6j.jpg" alt="Imagen de playboy"/>
-            <img src="https://res.cloudinary.com/elilara/image/upload/v1652033018/PLAYBOY_06_ycsbzt.jpg" alt="Imagen de playboy"/>
+	const settings = {
+		dots: true,
+		infinite: true,
+		speed: 1500,
+		autoplaySpeed: 3000,
+		autoplay: true,
+		fade: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		lazyLoad: true,
+		pauseOnHover: true,
+	};
 
-        </div>
-    );
+	return (
+		<div className="container mt-36">
+			<img
+				className="mx-auto"
+				src="https://res.cloudinary.com/elizapardo/image/upload/v1655668556/Editorial/playboyLogo_lya7fn.webp"
+				alt="Varidades logo"
+			/>
+			<p className="font-Ikra text-center my-6">
+				Revista de entretenimiento para adultos. Se publica mensualmente y
+				ofrece artículos sobre temas de interés y entrevistas a personas
+				destacadas.
+			</p>
+			<div className="grid grid-cols-1">
+				<div className=" px-auto">
+					<Slider {...settings}>
+						<div className="w-80 mx-auto">
+							<img
+								className="mx-auto"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245324/Editorial/Playboy/PB_01_WEB_hpoky6.webp"
+								alt="Imagen de playboy"
+							/>
+						</div>
+						<div>
+							<img
+								className="mx-auto"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245258/Editorial/Playboy/PB_02_WEB_bb4ovs.webp"
+								alt="Imagen de playboy"
+							/>
+						</div>
+						<div>
+							<img
+								className="mx-auto"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245258/Editorial/Playboy/PB_03_WEB_xhcnb7.webp"
+								alt="Imagen de playboy"
+							/>
+						</div>
+						<div>
+							<img
+								className="mx-auto"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245258/Editorial/Playboy/PB_04_WEB_rizqmj.webp"
+								alt="Imagen de playboy"
+							/>
+						</div>
+						<div>
+							<img
+								className="mx-auto"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245258/Editorial/Playboy/PB_05_WEB_vdpksk.webp"
+								alt="Imagen de playboy"
+							/>
+						</div>
+						<div>
+							<img
+								className="mx-auto"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245258/Editorial/Playboy/PB_06_WEB_mraqxk.webp"
+								alt="Imagen de playboy"
+							/>
+						</div>
+						<div>
+							<img
+								className="mx-auto"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245258/Editorial/Playboy/PB_07_WEB_f7bxg3.webp"
+								alt="Imagen de playboy"
+							/>
+						</div>
+						<div>
+							<img
+								className="mx-auto"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245258/Editorial/Playboy/PB_08_WEB_nb2zqn.webp"
+								alt="Imagen de playboy"
+							/>
+						</div>
+						<div>
+							<img
+								className="mx-auto"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245258/Editorial/Playboy/PB_09_WEB_msnqkh.webp"
+								alt="Imagen de playboy"
+							/>
+						</div>
+                        <div>
+							<img
+								className="mx-auto"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245258/Editorial/Playboy/PB_10_WEB_oqlny9.webp"
+								alt="Imagen de playboy"
+							/>
+						</div>
+                        <div>
+							<img
+								className="mx-auto"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245258/Editorial/Playboy/PB_11_WEB_ocr6tl.webp"
+								alt="Imagen de playboy"
+							/>
+						</div>
+                        <div>
+							<img
+								className="mx-auto"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245259/Editorial/Playboy/PB_12_WEB_nlvjpo.webp"
+								alt="Imagen de playboy"
+							/>
+						</div>
+                        <div>
+							<img
+								className="mx-auto"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245259/Editorial/Playboy/PB_13_WEB_qbyjaj.webp"
+								alt="Imagen de playboy"
+							/>
+						</div>
+                        <div>
+							<img
+								className="mx-auto"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245257/Editorial/Playboy/PB_14_WEB_eeqznx.webp"
+								alt="Imagen de playboy"
+							/>
+						</div>
+                        <div>
+							<img
+								className="mx-auto"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245258/Editorial/Playboy/PB_15_WEB_vkfnx3.webp"
+								alt="Imagen de playboy"
+							/>
+						</div>
+					</Slider>
+				</div>
+			</div>
+		</div>
+	);
 };
