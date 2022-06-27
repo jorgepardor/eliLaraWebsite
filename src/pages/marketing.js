@@ -1,13 +1,13 @@
 import React from "react";
+import { Waylanders } from "../components/marketing/waylanders";
+
 
 export const Marketing = () => {
     return (  
-        <div>
-            <header className="App-header">
-                <p data-aos="fade-in">
-                Under Active Development
-                </p>
-            </header>
+        <div className="container mx-auto">
+
+            <Waylanders />
+
         </div>
     );
 };

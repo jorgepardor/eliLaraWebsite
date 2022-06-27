@@ -18,15 +18,15 @@ export const Nonna = () => {
 			<div className="grid grid-cols-1 lg:grid-cols-4">
 				<div className="lg:col-span-4 justify-self-center mb-2">
 					<img
-						className="drop-shadow mx-auto object-cover"
+						className="drop-shadow mx-auto "
 						src="https://res.cloudinary.com/elizapardo/image/upload/v1656257045/Corporativo/LaNonna/Tek-a-way_nonna_e9fxof.webp"
 						alt="Imagen de variedades"
 					/>
 				</div>
-				<div className="lg:col-span-2 gap-2 md:mr-2 my-2">
+				<div className="lg:col-span-2 gap-2 object-cover hover:object-fill md:mr-2 my-2">
 					<img
 						className="drop-shadow mx-auto"
-						src="https://res.cloudinary.com/elizapardo/image/upload/v1656257045/Corporativo/LaNonna/vaso-cafe_nonna_01_buaxtq.webp"
+						src="https://res.cloudinary.com/elizapardo/image/upload/v1656344102/Corporativo/LaNonna/vaso-cafe_nonna_01_txymjc.webp"
 						alt="Imagen de variedades"
 					/>
 				</div>
