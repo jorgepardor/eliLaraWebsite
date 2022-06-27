@@ -1,13 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@100;400;700&display=swap");
 @tailwind base;
 @tailwind components;
 
-@font-face {
-	font-family: "Ikra";
-	src: url("../assets/IkraSlab.ttf");
+@layer base {
+	@font-face {
+		font-family: "Ikra";
+		src: url("../../public/fonts/IkraSlab.ttf");
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: "Airone";
+		src: url("");
+	}
 }
 
-@font-face {
-	font-family: "Airone";
-	src: url("");
-}
 @tailwind utilities;
+
+html {
+	scroll-behavior: smooth;
+}
+
+.corporativos-logo {
+	height: 400px;
+}
+
+.corporativos-grid-h {
+	height: 350px;
+}

@@ -14,8 +14,7 @@ module.exports = {
 		},
 		extend: {},
 		fontFamily: {
-			Ikra: ["Ikra", "sans-serif"],
-			Airone: ["Airone", "sans-serif"],
+			Epilogue: ['Epilogue']
 		},
 	},
 	plugins: [require("flowbite/plugin")],

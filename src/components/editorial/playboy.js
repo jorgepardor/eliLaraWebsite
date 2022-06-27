@@ -19,7 +19,7 @@ export const Playboy = () => {
 		<div className="container mt-36">
 			<img
 				className="mx-auto"
-				src="https://res.cloudinary.com/elizapardo/image/upload/v1655668556/Editorial/playboyLogo_lya7fn.webp"
+				src="https://res.cloudinary.com/elizapardo/image/upload/v1656342601/Editorial/Playboylogo_dro56e.webp"
 				alt="Varidades logo"
 			/>
 			<p className="font-Ikra text-center my-6">
