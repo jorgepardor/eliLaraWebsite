@@ -18,7 +18,7 @@ export const Toomuch = () => {
 	return (
 		<div className="container mt-36">
 			<img
-				className="mx-auto"
+				className="mx-auto  w-2/6"
 				src="https://res.cloudinary.com/elizapardo/image/upload/v1656246318/Editorial/logos_revistas_web_fymauj.webp"
 				alt="Toomuch logo"
 			/>
@@ -31,63 +31,63 @@ export const Toomuch = () => {
 						<div className="w-80 mx-auto">
 							<img
 								className="mx-auto"
-								src="https://res.cloudinary.com/elizapardo/image/upload/v1656244320/Editorial/Toomuch/TM_01_WEB_taj6ay.webp"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656779387/Editorial/Toomuch/TOO_MUCHO__01_mowjgv.webp"
 								alt="Imagen de toomuch"
 							/>
 						</div>
 						<div>
 							<img
 								className="mx-auto"
-								src="https://res.cloudinary.com/elizapardo/image/upload/v1656244320/Editorial/Toomuch/TM_02_WEB_ar2rmb.webp"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656779387/Editorial/Toomuch/TOO_MUCHO__03_rkqeed.webp"
 								alt="Imagen de toomuch"
 							/>
 						</div>
 						<div>
 							<img
 								className="mx-auto"
-								src="https://res.cloudinary.com/elizapardo/image/upload/v1656244320/Editorial/Toomuch/TM_03_WEB_zjjavn.webp"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656779387/Editorial/Toomuch/TOO_MUCHO__04_nvtkf6.webp"
 								alt="Imagen de toomuch"
 							/>
 						</div>
 						<div>
 							<img
 								className="mx-auto"
-								src="https://res.cloudinary.com/elizapardo/image/upload/v1656244320/Editorial/Toomuch/TM_04_WEB_mvuxur.webp"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656779387/Editorial/Toomuch/TOO_MUCHO__05_yycfwr.webp"
 								alt="Imagen de toomuch"
 							/>
 						</div>
 						<div>
 							<img
 								className="mx-auto"
-								src="https://res.cloudinary.com/elizapardo/image/upload/v1656244320/Editorial/Toomuch/TM_05_WEB_hoenrc.webp"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656779387/Editorial/Toomuch/TOO_MUCHO__06_q7hcxc.webp"
 								alt="Imagen de toomuch"
 							/>
 						</div>
 						<div>
 							<img
 								className="mx-auto"
-								src="https://res.cloudinary.com/elizapardo/image/upload/v1656244320/Editorial/Toomuch/TM_06_WEB_p2pdmt.webp"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656779387/Editorial/Toomuch/TOO_MUCHO__07_rsy6wv.webp"
 								alt="Imagen de toomuch"
 							/>
 						</div>
 						<div>
 							<img
 								className="mx-auto"
-								src="https://res.cloudinary.com/elizapardo/image/upload/v1656244320/Editorial/Toomuch/TM_07_WEB_fjkbju.webp"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656779388/Editorial/Toomuch/TOO_MUCHO__08_v6zlli.webp"
 								alt="Imagen de toomuch"
 							/>
 						</div>
 						<div>
 							<img
 								className="mx-auto"
-								src="https://res.cloudinary.com/elizapardo/image/upload/v1656244321/Editorial/Toomuch/TM_08_WEB_rxk7me.webp"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656779388/Editorial/Toomuch/TOO_MUCHO__09_ljcemy.webp"
 								alt="Imagen de toomuch"
 							/>
 						</div>
 						<div>
 							<img
 								className="mx-auto"
-								src="https://res.cloudinary.com/elizapardo/image/upload/v1656244320/Editorial/Toomuch/TM_09_WEB_f2pu6k.webp"
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656779388/Editorial/Toomuch/TOO_MUCHO__10_mil3mo.webp"
 								alt="Imagen de toomuch"
 							/>
 						</div>

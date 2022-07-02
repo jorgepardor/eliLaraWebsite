@@ -4,7 +4,7 @@ export const Moimoi = () => {
 	return (
 		<div className="container mt-36">
 			<img
-				className="mx-auto"
+				className="mx-auto "
 				src="https://res.cloudinary.com/elizapardo/image/upload/v1656258745/Corporativo/MoiMoi/Log_moimoi_web_jzssv3.webp"
 				alt="Varidades logo"
 			/>

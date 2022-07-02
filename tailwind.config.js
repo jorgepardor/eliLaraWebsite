@@ -11,6 +11,7 @@ module.exports = {
 			"Red-custom": "#BF3F61",
 			"Base-dark": "#383941",
 			"Base-light": "#F9F9F9",
+			"Light-gray": "#F9F9FA"
 		},
 		extend: {},
 		fontFamily: {

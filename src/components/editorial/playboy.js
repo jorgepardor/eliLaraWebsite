@@ -16,9 +16,9 @@ export const Playboy = () => {
 	};
 
 	return (
-		<div className="container mt-36">
+		<div className="container mt-36 ">
 			<img
-				className="mx-auto"
+				className="mx-auto w-2/6"
 				src="https://res.cloudinary.com/elizapardo/image/upload/v1656342601/Editorial/Playboylogo_dro56e.webp"
 				alt="Varidades logo"
 			/>
@@ -27,7 +27,7 @@ export const Playboy = () => {
 				ofrece artículos sobre temas de interés y entrevistas a personas
 				destacadas.
 			</p>
-			<div className="grid grid-cols-1">
+			<div className="grid grid-cols-1 mb-20">
 				<div className=" px-auto">
 					<Slider {...settings}>
 						<div className="w-80 mx-auto">
@@ -79,13 +79,13 @@ export const Playboy = () => {
 								alt="Imagen de playboy"
 							/>
 						</div>
-						<div>
+						{/* <div>
 							<img
 								className="mx-auto"
 								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245258/Editorial/Playboy/PB_08_WEB_nb2zqn.webp"
 								alt="Imagen de playboy"
 							/>
-						</div>
+						</div> */}
 						<div>
 							<img
 								className="mx-auto"

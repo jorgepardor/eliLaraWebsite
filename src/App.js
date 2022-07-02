@@ -6,12 +6,10 @@ function App() {
 			<header className="...">
 
 					<img
-						className=" mt-60 w-1/2 m-auto"
+						className=" mt-60 w-1/5 m-auto"
 						src="https://res.cloudinary.com/elizapardo/image/upload/v1655667645/Artboard-1-copy_eewqjy.webp"
 						alt="logo"
 					/>
-
-					<p className=" leading-5 mt-10">🌱 Under development</p>
 
 			</header>
 		</div>

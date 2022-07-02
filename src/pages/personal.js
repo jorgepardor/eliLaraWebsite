@@ -1,13 +1,13 @@
 import React from "react";
+import { CustomType } from "../components/personal/customtype";
+
 
 export const Personal = () => {
     return (  
-        <div>
-            <header className="App-header">
-                <p data-aos="fade-in">
-                    Under Active Development
-                </p>
-            </header>
+        <div className="container mx-auto">
+
+            <CustomType />
+
         </div>
     );
 };

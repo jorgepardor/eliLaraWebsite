@@ -19,7 +19,7 @@ export const Variedades = () => {
 	return (
 		<div className="container mt-36">
 			<img
-				className="mx-auto"
+				className="mx-auto  w-2/6"
 				src="https://res.cloudinary.com/elizapardo/image/upload/v1655668556/Editorial/VariedadesLogo_lya7fn.webp"
 				alt="Varidades logo"
 			/>

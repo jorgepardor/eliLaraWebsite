@@ -2,7 +2,7 @@ import React from "react";
 
 export const Navbar = () => {
 	return (
-		<nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
+		<nav class=" bg-Purple-dark  px-2 sm:px-4 py-2.5  dark:bg-gray-800">
 			<div class="container flex flex-wrap justify-between items-center mx-auto">
 				<a href="/" class="flex items-center">
 					<img
@@ -22,7 +22,7 @@ export const Navbar = () => {
 					<button
 						data-collapse-toggle="mobile-menu-4"
 						type="button"
-						class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+						class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-Light-gray dark:focus:ring-gray-600"
 						aria-controls="mobile-menu-4"
 						aria-expanded="false"
 					>
@@ -61,7 +61,7 @@ export const Navbar = () => {
 						<li>
 							<a
 								href="/editorial"
-								class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+								class="block py-2 pr-4 pl-3 text-Light-gray border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-Yellow-custom md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-Light-gray dark:hover:text-white md:dark:hover:bg-transparent dark:border-Light-gray"
 							>
 								Diseño Editorial
 							</a>
@@ -69,7 +69,7 @@ export const Navbar = () => {
 						<li>
 							<a
 								href="/corporativo"
-								class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+								class="block py-2 pr-4 pl-3 text-Light-gray border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-Yellow-custom md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-Light-gray dark:hover:text-white md:dark:hover:bg-transparent dark:border-Light-gray"
 							>
 								Imagen Corporativa
 							</a>
@@ -77,7 +77,7 @@ export const Navbar = () => {
 						<li>
 							<a
 								href="/marketing"
-								class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+								class="block py-2 pr-4 pl-3 text-Light-gray border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-Yellow-custom md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-Light-gray dark:hover:text-white md:dark:hover:bg-transparent dark:border-Light-gray"
 							>
 								Marketing
 							</a>
@@ -85,7 +85,7 @@ export const Navbar = () => {
 						<li>
 							<a
 								href="/3d"
-								class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+								class="block py-2 pr-4 pl-3 text-Light-gray border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-Yellow-custom md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-Light-gray dark:hover:text-white md:dark:hover:bg-transparent dark:border-Light-gray"
 							>
 								Cinema 4D
 							</a>
@@ -93,7 +93,7 @@ export const Navbar = () => {
 						<li>
 							<a
 								href="/personal"
-								class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+								class="block py-2 pr-4 pl-3 text-Light-gray border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-Yellow-custom md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-Light-gray dark:hover:text-white md:dark:hover:bg-transparent dark:border-Light-gray"
 							>
 								Proyectos Personales
 							</a>
@@ -101,7 +101,7 @@ export const Navbar = () => {
 						<li>
 							<a
 								href="/video"
-								class="font-Ikra block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+								class="font-Ikra block py-2 pr-4 pl-3 text-Light-gray border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-Yellow-custom md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-Light-gray dark:hover:text-white md:dark:hover:bg-transparent dark:border-Light-gray"
 							>
 								Edición de Vídeo
 							</a>

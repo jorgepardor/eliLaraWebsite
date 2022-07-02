@@ -1,13 +1,13 @@
 import React from "react";
+import { Cinema4d } from "../components/3d/cinema4d";
+
 
 export const Elementos3d = () => {
     return (  
-        <div>
-            <header className="App-header">
-                <p data-aos="fade-in">
-                Under Active Development
-                </p>
-            </header>
+        <div className="container mx-auto">
+
+            <Cinema4d />
+
         </div>
     );
 };
