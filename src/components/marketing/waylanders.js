@@ -24,8 +24,7 @@ export const Waylanders = () => {
 				alt="Waylanders logo"
 			/>
 			<p className="font-Mukta text-base text-center mt-6 mb-24">
-				Waylanders es la primera revista femenina de Venezuela. Con un tiraje
-				mensual, se dedica a satisfacer las inquietudes de la mujer actual.
+				Trabajé en Gato Studio durante el desarollo de The Waylanders, un videojuego de RPG inspirado en la época Celta. <br /> Fui parte del departamento de marketing, en el cual tenía múltiples responsabilidades, como la realización de <span className="font-Mukta text-base text-Yellow-custom"><a href="/video">vídeos</a></span>, el diseño y maquetación de la página web, <br />como también el diseño de recursos gráficos para las publicaciones del desarrollo.
 			</p>
 			<div className="grid grid-cols-1">
 				<div className=" px-auto">
@@ -118,9 +117,9 @@ export const Waylanders = () => {
 						alt="Imagen de Waylanders"
 					/>
 				</div>
-				<div className="lg:col-span-4 justify-self-center mt-20 mb-10">
+				{/* <div className="lg:col-span-4 justify-self-center mt-20 mb-10">
 
-					<a href="https://res.cloudinary.com/elizapardo/image/upload/v1656699428/behance_aplgqv.webp" alt="Perfil de Behance">
+					<a href="https://res.cloudinary.com/elizapardo/image/upload/v1656699428/behance_aplgqv.webp"  alt="Perfil de Behance">
 						<img
 							className="w-56  mx-auto"
 							src="https://res.cloudinary.com/elizapardo/image/upload/v1656699428/behance_aplgqv.webp"
@@ -130,7 +129,7 @@ export const Waylanders = () => {
 							Para ver mas de mi trabajo en The Waylanders visita mi perfil de Behance
 						</p>
 					</a>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);

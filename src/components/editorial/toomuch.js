@@ -93,6 +93,12 @@ export const Toomuch = () => {
 						</div>
 					</Slider>
 				</div>
+				<div className="lg:col-span-4 justify-self-center mt-20 mb-10">
+
+					<a className="font-Mukta text-sm text-center mb-6 text-Purple-light" href="https://www.behance.net/gallery/36309515/TOO-MUCH" alt="Perfil de Behance">
+						Haz click aquí para ver este trabajo en Behance
+					</a>
+				</div>
 			</div>
 		</div>
 	);

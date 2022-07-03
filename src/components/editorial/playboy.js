@@ -93,42 +93,42 @@ export const Playboy = () => {
 								alt="Imagen de playboy"
 							/>
 						</div>
-                        <div>
+						<div>
 							<img
 								className="mx-auto"
 								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245258/Editorial/Playboy/PB_10_WEB_oqlny9.webp"
 								alt="Imagen de playboy"
 							/>
 						</div>
-                        <div>
+						<div>
 							<img
 								className="mx-auto"
 								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245258/Editorial/Playboy/PB_11_WEB_ocr6tl.webp"
 								alt="Imagen de playboy"
 							/>
 						</div>
-                        <div>
+						<div>
 							<img
 								className="mx-auto"
 								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245259/Editorial/Playboy/PB_12_WEB_nlvjpo.webp"
 								alt="Imagen de playboy"
 							/>
 						</div>
-                        <div>
+						<div>
 							<img
 								className="mx-auto"
 								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245259/Editorial/Playboy/PB_13_WEB_qbyjaj.webp"
 								alt="Imagen de playboy"
 							/>
 						</div>
-                        <div>
+						<div>
 							<img
 								className="mx-auto"
 								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245257/Editorial/Playboy/PB_14_WEB_eeqznx.webp"
 								alt="Imagen de playboy"
 							/>
 						</div>
-                        <div>
+						<div>
 							<img
 								className="mx-auto"
 								src="https://res.cloudinary.com/elizapardo/image/upload/v1656245258/Editorial/Playboy/PB_15_WEB_vkfnx3.webp"
@@ -137,7 +137,16 @@ export const Playboy = () => {
 						</div>
 					</Slider>
 				</div>
+				<div className="lg:col-span-4 justify-self-center mt-20 mb-10">
+
+					<a className="font-Mukta text-sm text-center mb-6 text-Purple-light" href="https://www.behance.net/gallery/29772267/Diagramacion-de-la-revista-Playboy-Venezuela" alt="Perfil de Behance">
+							Haz click aquí para ver este trabajo en Behance
+					</a>
+				</div>
 			</div>
 		</div>
 	);
 };
+
+
+

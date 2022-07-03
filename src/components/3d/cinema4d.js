@@ -2,7 +2,12 @@ import React from "react";
 
 export const Cinema4d = () => {
     return (
+
         <div className="container mt-24">
+            <p className="font-Mukta text-base text-center mt-6 mb-24">
+               Hice un curso de modelado 3d utilizando el programa Cinema4d y estas imágenes son muestras de algunos de los ejercicios
+            </p>
+
             <div className="grid grid-cols-1 lg:grid-cols-6 mx-40">
                 <div className="lg:col-span-6 mb-2">
                     <img
