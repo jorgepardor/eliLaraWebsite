@@ -29,7 +29,7 @@ export const Contacto = () => {
     }
 
     return (
-        <div className="container mx-auto py-40">
+        <div className="h-screen container mx-auto py-40">
             <form onSubmit={sendEmail}>
                 <div className="grid l:grid-cols-2 l:gap-6 ">
                     <div className="relative z-0 mb-6 w-full px-3 group">
