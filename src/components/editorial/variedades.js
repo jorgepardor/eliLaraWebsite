@@ -23,7 +23,7 @@ export const Variedades = () => {
 				src="https://res.cloudinary.com/elizapardo/image/upload/v1655668556/Editorial/VariedadesLogo_lya7fn.webp"
 				alt="Varidades logo"
 			/>
-			<p className="font-Ikra text-center my-6">
+			<p className="font-Mukta text-base text-center my-6">
 				Variedades es la primera revista femenina de Venezuela. Con un tiraje
 				mensual, se dedica a satisfacer las inquietudes de la mujer actual.
 			</p>

@@ -1,13 +1,13 @@
 import React from "react";
+import { EdicionVideo } from "../components/Video/video";
+
 
 export const Video = () => {
     return (  
-        <div>
-            <header className="App-header">
-                <p data-aos="fade-in">
-                Under Active Development
-                </p>
-            </header>
+        <div className="container mx-auto">
+
+            <EdicionVideo />
+
         </div>
     );
 };

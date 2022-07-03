@@ -15,7 +15,7 @@ module.exports = {
 		},
 		extend: {},
 		fontFamily: {
-			Epilogue: ['Epilogue']
+			Mukta: ['Mukta']
 		},
 	},
 	plugins: [require("flowbite/plugin")],

@@ -12,14 +12,14 @@ export const Cinema4d = () => {
                     />
                 </div>
 
-                <div className="lg:col-span-3 gap-2">
+                <div className="lg:col-span-3 gap-2  mb-24">
                     <img
                         className="drop-shadow mx-auto"
                         src="https://res.cloudinary.com/elizapardo/image/upload/v1656775170/3d/Escenario_mascota_editado-03-web_ectvsj.webp"
                         alt="Imagen de proyectos en 3d con cinema4d"
                     />
                 </div>
-                <div className="lg:col-span-3 gap-2">
+                <div className="lg:col-span-3 gap-2 mb-24">
                     <img
                         className="drop-shadow mx-auto"
                         src="https://res.cloudinary.com/elizapardo/image/upload/v1656775170/3d/totem_ykspzl.webp"

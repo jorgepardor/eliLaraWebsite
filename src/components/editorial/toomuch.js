@@ -22,7 +22,7 @@ export const Toomuch = () => {
 				src="https://res.cloudinary.com/elizapardo/image/upload/v1656246318/Editorial/logos_revistas_web_fymauj.webp"
 				alt="Toomuch logo"
 			/>
-			<p className="font-Ikra text-center my-6">
+			<p className="font-Mukta text-base text-center my-6">
 				Revista enfocada en tendencias, glamour, estilo y elegancia.
 			</p>
 			<div className="grid grid-cols-1">

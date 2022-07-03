@@ -22,7 +22,7 @@ export const Playboy = () => {
 				src="https://res.cloudinary.com/elizapardo/image/upload/v1656342601/Editorial/Playboylogo_dro56e.webp"
 				alt="Varidades logo"
 			/>
-			<p className="font-Ikra text-center my-6">
+			<p className="font-Mukta text-base text-center my-6">
 				Revista de entretenimiento para adultos. Se publica mensualmente y
 				ofrece artículos sobre temas de interés y entrevistas a personas
 				destacadas.

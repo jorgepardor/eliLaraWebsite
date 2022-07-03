@@ -23,7 +23,7 @@ export const Waylanders = () => {
 				src="https://res.cloudinary.com/elizapardo/image/upload/v1656699083/Marketing/waylanders_byenfr.webp"
 				alt="Waylanders logo"
 			/>
-			<p className="font-Ikra text-center mt-6 mb-24">
+			<p className="font-Mukta text-base text-center mt-6 mb-24">
 				Waylanders es la primera revista femenina de Venezuela. Con un tiraje
 				mensual, se dedica a satisfacer las inquietudes de la mujer actual.
 			</p>
@@ -126,7 +126,7 @@ export const Waylanders = () => {
 							src="https://res.cloudinary.com/elizapardo/image/upload/v1656699428/behance_aplgqv.webp"
 							alt="Visita mi perfil en Behance"
 						/>
-						<p className="font-Ikra text-center mb-6">
+						<p className="font-Mukta text-sm text-center mb-6">
 							Para ver mas de mi trabajo en The Waylanders visita mi perfil de Behance
 						</p>
 					</a>

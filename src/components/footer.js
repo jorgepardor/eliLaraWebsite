@@ -8,22 +8,22 @@ export const Footer = () => {
 			</span>
 			<ul class="flex flex-wrap items-center mt-3 text-sm text-Light-gray dark:text-gray-400 sm:mt-0">
 				<li>
-					<a href="..." class="mr-4 hover:underline md:mr-6 ">
+					<a href="..." class="font-Mukta text-sm  mr-4 hover:text-Yellow-custom md:mr-6 ">
 						Currículo
 					</a>
 				</li>
 				<li>
-					<a href="..." class="mr-4 hover:underline md:mr-6">
+					<a href="https://www.behance.net/elizabethlarag" class="font-Mukta text-sm mr-4 hover:text-Yellow-custom md:mr-6">
 						Behance
 					</a>
 				</li>
 				<li>
-					<a href="..." class="mr-4 hover:underline md:mr-6">
+					<a href="https://www.linkedin.com/in/elizabeth-lara-gonzalez-12b14b36/" class="font-Mukta text-sm mr-4 hover:text-Yellow-custom md:mr-6">
 						LinkedIn
 					</a>
 				</li>
 				<li>
-					<a href="..." class="hover:underline">
+					<a href="/contacto" class="font-Mukta text-sm hover:text-Yellow-custom">
 						Contacto
 					</a>
 				</li>
