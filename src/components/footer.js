@@ -8,7 +8,7 @@ export const Footer = () => {
 			</span>
 			<ul class="flex flex-wrap items-center mt-3 text-sm text-Light-gray dark:text-gray-400 sm:mt-0">
 				<li>
-					<a href="..." class="font-Mukta text-sm  mr-4 hover:text-Yellow-custom md:mr-6" target="_blank" rel="noreferrer">
+					<a href="/assets/Elizabeth Lara Gonzalez.pdf" download class="font-Mukta text-sm  mr-4 hover:text-Yellow-custom md:mr-6" target="_blank" rel="noreferrer">
 						Currículo
 					</a>
 				</li>
