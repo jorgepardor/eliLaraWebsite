@@ -18,7 +18,7 @@ export const Toomuch = () => {
 	return (
 		<div className="container mt-36">
 			<img
-				className="mx-auto  w-2/6"
+				className="mx-auto w-4/6 md:w-2/6"
 				src="https://res.cloudinary.com/elizapardo/image/upload/v1656246318/Editorial/logos_revistas_web_fymauj.webp"
 				alt="Toomuch logo"
 			/>

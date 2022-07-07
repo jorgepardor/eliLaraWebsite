@@ -2,18 +2,13 @@ import React from "react";
 
 export const EdicionVideo = () => {
 	return (
-		<div className="container mt-24">
-			{/* <img
-				className="mx-auto corporativos-logo w-1/4"
-				src="https://res.cloudinary.com/elizapardo/image/upload/v1656258517/Corporativo/LaNonna/Logo_web_nonna_eg4x6j.webp"
-				alt="Varidades logo"
-			/> */}
+		<div className="container mt-24 flex flex-col h-screen">
 
 			<p className="font-Mukta text-base text-center my-6">
 				Parte de mi trabajo en el departamento de Marketing de Gato Studio consistía en realizar la edición de vídeos <br />que eran utilizados en las publicaciones del devlog de The Waylanders.
 			</p>
 
-			<div className="grid grid-cols-1 lg:grid-cols-6 mb-24">
+			<div className="grid grid-cols-1 lg:grid-cols-6 flex-grow">
 				<a href="https://www.youtube.com/watch?v=zh-RZzJl_J0" className="lg:col-span-3 p-2" target="_blank" rel="noreferrer">
 					<img
 						className="drop-shadow mx-auto"

@@ -19,7 +19,7 @@ export const Waylanders = () => {
 	return (
 		<div className="container mt-36">
 			<img
-				className="mx-auto  w-2/6"
+				className="mx-auto w-4/6 md:w-2/6"
 				src="https://res.cloudinary.com/elizapardo/image/upload/v1656699083/Marketing/waylanders_byenfr.webp"
 				alt="Waylanders logo"
 			/>

@@ -18,7 +18,7 @@ export const Playboy = () => {
 	return (
 		<div className="container mt-36 ">
 			<img
-				className="mx-auto w-2/6"
+				className="mx-auto w-4/6 md:w-2/6"
 				src="https://res.cloudinary.com/elizapardo/image/upload/v1656342601/Editorial/Playboylogo_dro56e.webp"
 				alt="Varidades logo"
 			/>

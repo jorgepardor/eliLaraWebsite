@@ -6,7 +6,7 @@ export const CustomType = () => {
 	return (
 		<div className="container my-36">
 			<img
-				className="mx-auto"
+				className="mx-auto w-4/6 md:w-2/6"
 				src="https://res.cloudinary.com/elizapardo/image/upload/v1656702882/Personal/customtype_jam9xk.webp"
 				alt="Customizing logo"
 			/>

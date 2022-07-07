@@ -22,7 +22,6 @@ import { Contacto } from './pages/contacto.js';	// Importamos el componente Cont
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div className='flex flex-col h-screen'>
-    <React.StrictMode>
       <BrowserRouter>
       <Navbar />
         <Routes>
@@ -35,8 +34,7 @@ root.render(
           <Route path="/personal" element={<Personal />} />
           <Route path="/contacto" element={<Contacto />} />
         </Routes>
-        <Footer />
+        <Footer/>
       </BrowserRouter>
-    </React.StrictMode>
   </div>
 );
