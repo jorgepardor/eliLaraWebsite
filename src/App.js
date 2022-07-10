@@ -8,7 +8,7 @@ function App() {
 				<div className="mt-48 mx-auto">
 					<video
 						className="m-auto"
-						src="https://res.cloudinary.com/elizapardo/video/upload/v1657467828/ElizabethLaraMainVideo_ahiiws.mp4"
+						src="https://res.cloudinary.com/elizapardo/video/upload/v1657474724/MainVideoV2.mp4"
 						autoPlay
 						muted
 					/>

@@ -12,7 +12,7 @@ export const Navbar = () => {
 				<div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
 					<div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 					<img
-						src="https://res.cloudinary.com/elizapardo/video/upload/v1657474724/MainVideoV2.mp4"
+						src="https://res.cloudinary.com/elizapardo/image/upload/v1656870897/logotokenbw_cqvis3.webp"
 						className="mr-3 h-9"
 						alt="Elizabeth Lara"
 					/>
