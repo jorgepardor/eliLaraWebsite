@@ -11,11 +11,13 @@ export const Navbar = () => {
 			<nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-Purple-dark mb-3">
 				<div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
 					<div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-					<img
-						src="https://res.cloudinary.com/elizapardo/image/upload/v1656870897/logotokenbw_cqvis3.webp"
-						className="mr-3 h-9"
-						alt="Elizabeth Lara"
-					/>
+						<a href="/">
+							<img
+								src="https://res.cloudinary.com/elizapardo/image/upload/v1656870897/logotokenbw_cqvis3.webp"
+								className="mr-3 h-9"
+								alt="Elizabeth Lara"
+							/>
+						</a>
 						<button
 							className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
 							type="button"
