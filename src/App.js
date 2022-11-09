@@ -5,7 +5,7 @@ function App() {
 		<div className="flex h-screen justify-center items-center">
 			<video
 				className="m-auto"
-				src="https://res.cloudinary.com/elizapardo/video/upload/v1657474724/MainVideoV2.mp4"
+				src="https://res.cloudinary.com/elizapardo/video/upload/v1668003184/ElizabethOpeningV2_nqqacn.mp4"
 				autoPlay
 				muted
 			/>
